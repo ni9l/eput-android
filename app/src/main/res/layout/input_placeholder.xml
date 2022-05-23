@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eput.android.ui.widgets.PlaceholderPreference
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/list_margin"
+    android:textAlignment="textStart"
+    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+    android:text="@string/placeholder"
+    />

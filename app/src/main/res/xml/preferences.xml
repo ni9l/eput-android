@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
+        app:key="@string/key_translations"
+        app:title="@string/title_translations"
+        app:defaultValue="true"
+        />
+    <SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
+        app:key="@string/key_force_overwrite"
+        app:title="@string/title_force_overwrite"
+        app:summary="@string/desc_force_overwrite"
+        app:defaultValue="false"
+        />
+    <SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
+        app:key="@string/key_write_full_meta"
+        app:title="@string/title_write_full_meta"
+        app:summary="@string/desc_write_full_meta"
+        app:defaultValue="false"
+        />
+    <SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
+        app:key="@string/key_hide_dependencies"
+        app:title="@string/title_hide_dependencies"
+        app:defaultValue="false"
+        />
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/title_manage_data"
+        >
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/key_device_management"
+            app:title="@string/title_device_management"
+            />
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/key_reset_ui"
+            app:title="@string/title_reset_ui"
+            app:summary="@string/desc_reset_ui"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!--
+    <include domain="sharedpref" path="include_shared_pref1.xml"/>
+    -->
+    <cloud-backup>
+        <include domain="file" path="languages.json"/>
+        <include domain="root" path="ui_configs/"/>
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="languages.json"/>
+        <include domain="root" path="ui_configs/"/>
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eput.android.ui.widgets.ZonedDateTimePreference
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/list_margin"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:endIconMode="custom"
+        app:endIconCheckable="false"
+        app:endIconDrawable="@drawable/ic_baseline_calendar_today_24"
+        app:endIconContentDescription="@string/button_date_picker"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:textAlignment="viewEnd"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/zone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_timezone_offset"
+        app:endIconMode="custom"
+        app:endIconCheckable="false"
+        app:endIconDrawable="@drawable/ic_baseline_language_24"
+        app:endIconContentDescription="@string/title_zone_dialog"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/zone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAlignment="viewEnd"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+</eput.android.ui.widgets.ZonedDateTimePreference>
+
+

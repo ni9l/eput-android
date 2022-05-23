@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eput.android.ui.widgets.NumberListButtonsPreference
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/list_margin"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        />
+    <ImageButton
+        android:id="@+id/button_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/button_up_desc"
+        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        />
+    <ImageButton
+        android:id="@+id/button_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/button_down_desc"
+        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        />
+</eput.android.ui.widgets.NumberListButtonsPreference>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_margin">6dp</dimen>
+    <dimen name="list_margin">12dp</dimen>
+    <dimen name="border_width">1dp</dimen>
+</resources>

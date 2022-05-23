@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">ePUT</string>
+    <string name="desc_data_service">This service manages data used by the ePUT application.</string>
+    <string name="error_no_nfc">NFC not supported</string>
+    <string name="error_different_tag">Not the same device</string>
+    <string name="error_reading_file">Could not read file</string>
+    <string name="error_writing_tag">Could not write to tag</string>
+    <string name="error_unsupported_tag">Tag does not support NDEF</string>
+    <string name="error_read_title">Error reading device</string>
+    <string name="error_message_truncated">Data on device is damaged, please reset the device.</string>
+    <string name="error_invalid_message">Data read from device is invalid.</string>
+    <string name="error_unknown">Unknown error:%1$s\n%2$s</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_import">Import configuration</string>
+    <string name="action_export">Export configuration</string>
+    <string name="action_dump">Dump data</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_select_language">Select preferred language</string>
+
+    <string name="title_item_selection_action_mode" formatted="true">%1$d selected</string>
+    <string name="text_no_items">Nothing here yet.</string>
+
+    <!-- MainActivity -->
+    <string name="title_last_config">Last configuration</string>
+    <string name="button_apply_last_config">Apply</string>
+    <string name="button_more_configs">See more</string>
+    <string name="action_write_nfc">Write to tag</string>
+    <string name="button_launch_demo">Launch demo</string>
+    <string name="button_launch_socket">Launch socket demo</string>
+    <string name="button_launch_heater">Launch heater demo</string>
+    <string name="text_found_device">New device found</string>
+    <string name="action_configure">Configure</string>
+
+    <!-- WriteNfcActivity -->
+    <string name="button_download">Download payload</string>
+    <string name="button_select_file">Select file</string>
+    <string name="text_file" formatted="true">Selected file\n%1$s</string>
+    <string name="text_searching_tag">Looking for tag…</string>
+    <string name="text_found_tag">Tag found</string>
+    <string name="text_wrote_tag">Data written to tag</string>
+
+    <!-- ConfigurationActivity -->
+    <string name="title_configuration_default">Configure device</string>
+    <string name="action_configure_layout">Configure layout</string>
+    <string name="dialog_title_quit">Discard changes</string>
+    <string name="dialog_desc_quit">Do you want to discard any changes and exit the configuration?</string>
+    <string name="dialog_title_export_name">Enter configuration name</string>
+    <string name="dialog_title_import">Restore saved configuration</string>
+    <string name="dialog_title_language_changed">Language changed</string>
+    <string name="dialog_desc_language_changed">The selected language has been modified. Please save the configuration and reload it to apply.</string>
+    <string name="dialog_title_select_language">Select preferred language</string>
+
+    <!-- UiEditConfiguration -->
+    <string name="title_ui_edit">Edit interface layout</string>
+    <string name="label_ui_chooser">Widget</string>
+    <string name="error_apply">Error saving</string>
+
+    <!-- UI Preference Names -->
+    <string name="pref_mod_divider">Divider</string>
+    <string name="pref_mod_header">Header</string>
+    <string name="pref_sel_radio">Radio Button List</string>
+    <string name="pref_sel_dropdown">Dropdown Menu</string>
+    <string name="pref_sel_check">Checkbox List</string>
+    <string name="pref_bool_switch">Switch</string>
+    <string name="pref_array_frame">Profile Block</string>
+    <string name="pref_num_text">Numeral Text</string>
+    <string name="pref_num_slider">Numeral Slider</string>
+    <string name="pref_number_list_dropdown">Numeral Dropdown Menu</string>
+    <string name="pref_number_list_buttons">Numeral List with Buttons</string>
+    <string name="pref_date_picker">Date Picker</string>
+    <string name="pref_date_time_picker">Date and Time Picker</string>
+    <string name="pref_zoned_date_time_picker">Date, Time and Timezone Picker</string>
+    <string name="pref_date_range_picker">Date Range Picker</string>
+    <string name="pref_date_time_range_picker">Date and Time Range Picker</string>
+    <string name="pref_time_picker">Time Picker</string>
+    <string name="pref_time_range_picker">Time Range Picker</string>
+    <string name="pref_str_text">Text</string>
+    <string name="pref_str_color">Color String</string>
+    <string name="pref_language">Language Dropdown Menu</string>
+    <string name="pref_unknown">Unknown</string>
+
+    <!-- UI Preferences -->
+    <string name="error_invalid_number_int" formatted="true">Invalid number\nNumber from %1$d to %2$d</string>
+    <string name="error_invalid_number_dec" formatted="true">Invalid number\nNumber from %1$.3g to %2$.3g</string>
+    <string name="helper_number_range_int" formatted="true">Number from %1$d to %2$d</string>
+    <string name="helper_number_range_dec" formatted="true">Number from %1$.3g to %2$.3g</string>
+    <string name="helper_number_range_step" formatted="true">Number from %1$d to %2$d in steps of %3$d</string>
+    <string name="error_invalid_string">Invalid character(s) in string</string>
+    <string name="error_invalid_mail">Invalid e-mail address</string>
+    <string name="placeholder">Unknown property</string>
+    <string name="label_hours">Hours</string>
+    <string name="label_minutes">Minutes</string>
+    <string name="label_date">Date</string>
+    <string name="label_time">Time</string>
+    <string name="title_date_dialog">Select date</string>
+    <string name="title_time_dialog">Select time</string>
+    <string name="title_time_dialog_from">Select start time</string>
+    <string name="title_time_dialog_to">Select end time</string>
+    <string name="title_zone_dialog">Select timezone</string>
+    <string name="format_zone" formatted="true" translatable="false">%1$s%2$02d:%3$02d</string>
+    <string name="profile_name" formatted="true">Profile %1$d</string>
+    <string name="range_template" formatted="true">%1$s - %2$s</string>
+    <string name="button_date_picker">Select date</string>
+    <string name="error_format" formatted="true">Invalid format. Use format: %1$s</string>
+    <string name="error_format_range" formatted="true">Invalid format. Use format: %1$s - %2$s</string>
+    <string name="error_format_zone" formatted="true">Invalid format. Use format: [+-]hh:mm</string>
+    <string name="button_up_desc">Select next item</string>
+    <string name="button_down_desc">Select previous item</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="button_time_picker">Select time</string>
+    <string name="label_timezone_offset">Timezone offset</string>
+    <string name="dialog_title_color">Select color</string>
+    <string name="button_color_picker">Select color</string>
+    <string name="error_color_format">Invalid format.\nUse 6 or 8 digit hex code.</string>
+
+    <!-- App preferences -->
+    <string name="title_settings">Settings</string>
+    <string name="key_translations" translatable="false">translations</string>
+    <string name="title_translations">Enable translations</string>
+    <string name="key_translations_languages" translatable="false">translations_languages</string>
+    <string name="title_translations_languages">Select languages</string>
+    <string name="desc_translations_languages">Choose which languages to look for in translation resources.</string>
+    <string name="key_reset_ui" translatable="false">reset_ui</string>
+    <string name="title_reset_ui">Reset layouts</string>
+    <string name="desc_reset_ui">Reset all customized configuration screen layouts.</string>
+    <string name="key_hide_dependencies" translatable="false">hide_dependencies</string>
+    <string name="title_hide_dependencies">Hide inactive dependent preferences</string>
+    <string name="title_manage_data">Data management</string>
+    <string name="key_force_overwrite" translatable="false">force_overwrite</string>
+    <string name="title_force_overwrite">Force configuration writing</string>
+    <string name="desc_force_overwrite">Write configuration to device, even if device actually written to does not match the previously configured device.</string>
+    <string name="key_write_full_meta" translatable="false">write_full_meta</string>
+    <string name="title_write_full_meta">Write full metadata</string>
+    <string name="desc_write_full_meta">Always write full metadata to device. This will increase time required for applying configurations, but might improve compatibility with some devices.</string>
+
+    <!-- MainPreferenceFragment -->
+    <string name="title_main_preference">Settings</string>
+    <string name="dialog_title_clear_lang">Clear all</string>
+    <string name="dialog_desc_clear_lang">Remove all languages?</string>
+    <string name="msg_reset_ui_running">Resetting layouts</string>
+    <string name="msg_reset_ui_success">Layouts reset</string>
+    <string name="msg_reset_ui_error">Resetting layouts failed</string>
+
+    <!-- LanguageManagementFragment -->
+    <string name="title_language_management">Language priority</string>
+    <string name="desc_language_drag">Language list reorder drag handle</string>
+
+    <!-- LanguageListFragment -->
+    <string name="title_language_list">Select language</string>
+
+    <!-- DeviceManagementFragment -->
+    <string name="key_device_management" translatable="false">manage_devices</string>
+    <string name="title_device_management">Manage saved devices</string>
+    <string name="detail_device_none">No configurations</string>
+    <string name="detail_device_no_ui" formatted="true">Saved configurations: %1$d</string>
+    <string name="detail_device_ui" formatted="true">Saved configurations: %1$d, UI modified</string>
+
+    <!-- DeviceEditFragment -->
+    <string name="title_edit_device">Edit device</string>
+    <string name="title_name">Name</string>
+    <string name="detail_ui_form" formatted="true">%1$d preferences customized</string>
+    <string name="detail_ui_none">No preferences customized</string>
+    <string name="button_clear_ui">Clear</string>
+    <string name="detail_configs_form" formatted="true">%1$d saved configurations</string>
+    <string name="detail_configs_none">No saved configurations</string>
+    <string name="button_manage_exported_configs">Manage</string>
+    <string name="detail_language_form" formatted="true">Preferred language: %1$s</string>
+    <string name="detail_language_none">No preferred language selected</string>
+    <string name="button_reset_language">Reset</string>
+
+    <!-- ConfigurationManagementFragment -->
+    <string name="title_manage_configuration">Manage configurations</string>
+    <string name="detail_timestamp" formatted="true">Last saved: %1$s</string>
+    <string name="dialog_title_clear_configs">Clear all</string>
+    <string name="dialog_desc_clear_configs">Remove all saved configurations for this device?</string>
+    <string name="error_no_file_selected">No file selected</string>
+    <string name="error_no_folder_selected">No folder selected</string>
+    <string name="error_import_invalid">Import failed, file invalid</string>
+    <string name="error_export_write_failed" formatted="true">Export of file %1$s failed</string>
+
+    <!-- Units -->
+    <string name="unit_time_ms">Milliseconds</string>
+    <string name="unit_time_s">Seconds</string>
+    <string name="unit_time_m">Minutes</string>
+    <string name="unit_time_h">Hours</string>
+    <string name="unit_time_d">Days</string>
+    <string name="unit_short_time_ms" translatable="false">ms</string>
+    <string name="unit_short_time_s" translatable="false">s</string>
+    <string name="unit_short_time_m" translatable="false">m</string>
+    <string name="unit_short_time_h" translatable="false">h</string>
+    <string name="unit_short_time_d" translatable="false">d</string>
+    <string name="unit_length_mm">Millimeters</string>
+    <string name="unit_length_cm">Centimeters</string>
+    <string name="unit_length_dm">Decimeters</string>
+    <string name="unit_length_m">Meters</string>
+    <string name="unit_length_km">Kilometers</string>
+    <string name="unit_short_length_mm" translatable="false">mm</string>
+    <string name="unit_short_length_cm" translatable="false">cm</string>
+    <string name="unit_short_length_dm" translatable="false">dm</string>
+    <string name="unit_short_length_m" translatable="false">m</string>
+    <string name="unit_short_length_km" translatable="false">km</string>
+    <string name="unit_weight_mg">Milligrams</string>
+    <string name="unit_weight_g">Grams</string>
+    <string name="unit_weight_kg">Kilograms</string>
+    <string name="unit_short_weight_mg" translatable="false">mg</string>
+    <string name="unit_short_weight_g" translatable="false">g</string>
+    <string name="unit_short_weight_kg" translatable="false">kg</string>
+
+    <!-- Device Types -->
+    <string name="type_unknown">Unknown</string>
+    <string name="type_custom">Custom</string>
+    <string name="type_light">Light</string>
+    <string name="type_washing_machine">Washing Machine</string>
+    <string name="type_heater">Heater</string>
+
+    <!-- URI resources -->
+    <string name="ndef_scheme" translatable="false">https</string>
+    <string name="ndef_host" translatable="false">pma.inftech.hs-mannheim.de</string>
+    <string name="ndef_path" translatable="false">/eput</string>
+    <string name="ndef_arg_type" formatted="true" translatable="false">type=%1$s</string>
+    <string name="ndef_arg_compressed" formatted="true" translatable="false">zip=%1$s</string>
+    <string name="ndef_uri" formatted="true" translatable="false">%1$s://%2$s%3$s</string>
+    <string name="eput_service" translatable="false">https://pma.inftech.hs-mannheim.de/wsgi/eput</string>
+</resources>
