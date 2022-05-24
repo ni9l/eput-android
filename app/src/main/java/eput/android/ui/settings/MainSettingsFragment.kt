@@ -16,6 +16,8 @@ class MainSettingsFragment : PreferenceFragmentCompat() {
         setPreferencesFromResource(R.xml.preferences, rootKey)
         findPreference<Preference>(getString(R.string.key_device_management))?.fragment =
             DeviceManagementFragment::class.qualifiedName
+        findPreference<Preference>(getString(R.string.key_about))?.fragment =
+            AboutFragment::class.qualifiedName
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

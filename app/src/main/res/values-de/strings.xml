@@ -149,6 +149,7 @@
     <string name="error_no_folder_selected">Kein Ordner ausgewählt</string>
     <string name="error_import_invalid">Import fehlgeschlagen, ungültige Datei</string>
     <string name="error_export_write_failed">Export von Datei %1$s fehlgeschlagen</string>
+    <string name="title_about">Über</string>
     <string name="unit_time_ms">Millisekunden</string>
     <string name="unit_time_s">Sekunden</string>
     <string name="unit_time_m">Minuten</string>

@@ -44,4 +44,9 @@
             app:summary="@string/desc_reset_ui"
             />
     </PreferenceCategory>
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="@string/key_about"
+        app:title="@string/title_about"
+        />
 </PreferenceScreen>

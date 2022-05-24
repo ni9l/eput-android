@@ -140,6 +140,7 @@
     <string name="key_write_full_meta" translatable="false">write_full_meta</string>
     <string name="title_write_full_meta">Write full metadata</string>
     <string name="desc_write_full_meta">Always write full metadata to device. This will increase time required for applying configurations, but might improve compatibility with some devices.</string>
+    <string name="key_about" translatable="false">about</string>
 
     <!-- MainPreferenceFragment -->
     <string name="title_main_preference">Settings</string>
@@ -185,6 +186,9 @@
     <string name="error_no_folder_selected">No folder selected</string>
     <string name="error_import_invalid">Import failed, file invalid</string>
     <string name="error_export_write_failed" formatted="true">Export of file %1$s failed</string>
+
+    <!-- ConfigurationManagementFragment -->
+    <string name="title_about">About</string>
 
     <!-- Units -->
     <string name="unit_time_ms">Milliseconds</string>
